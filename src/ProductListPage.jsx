@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ProductList from "./ProductList";
-import { getProductList } from "./api";
+import { getProductList } from "./Api";
 import NoMatching from "./NoMatching";
 import Loading from "./Loading";
 import { range, toQuery } from "lodash";
