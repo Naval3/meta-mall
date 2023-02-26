@@ -2,7 +2,7 @@ import React, { createContext } from "react";
 import CartList from "./CartList";
 import { AiFillHome } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import { getProductData } from "./api";
+import { getProductData } from "./Api";
 import { useState, useEffect } from "react";
 import Button from "./Button";
 import Loading from "./Loading";

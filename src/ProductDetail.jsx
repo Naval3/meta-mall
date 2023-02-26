@@ -6,7 +6,7 @@ import {
   HiOutlineArrowCircleRight,
 } from "react-icons/hi";
 import { useEffect, useState } from "react";
-import { getProductData } from "./api";
+import { getProductData } from "./Api";
 import Loading from "./Loading";
 import NotFound from "./NotFound";
 import Button from "./Button";
